@@ -24,7 +24,7 @@ pub struct Config {
     // optimized in the future.
     pub(crate) config: crate::config::FrozenLayer,
     cloneable: ::aws_smithy_types::config_bag::CloneableLayer,
-    pub(crate) runtime_components: crate::config::RuntimeComponentsBuilder,
+    pub runtime_components: crate::config::RuntimeComponentsBuilder,
     pub(crate) runtime_plugins: ::std::vec::Vec<crate::config::SharedRuntimePlugin>,
     behavior_version: ::std::option::Option<crate::config::BehaviorVersion>,
 }
